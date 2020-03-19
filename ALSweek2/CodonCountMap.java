@@ -21,6 +21,7 @@ public class CodonCountMap {
         int maxval=0;
         for (Map.Entry<String, Integer> entry : codonsMap.entrySet())
         {
+            
             int count=entry.getValue();
             if(maxval<count){
                 maxval=count;
